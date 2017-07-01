@@ -1,0 +1,6 @@
+art_id,art_upc,art_descripcion,com_id,udm_id,fmp_id,mar_id,sts_id,art_itbm,art_empaque,art_undxemp
+1,1,test,1,1,1,1,1,1,1,2.20
+cli_id,cli_nombre,cli_ruc,cli_dv,cli_direccion,cli_tel,cli_tel2,cli_diavisita,cli_orden,cli_ultimavisita,cli_geo,per_id,sts_id,com_id,ven_id,tdv_id,rut_id,cpc_id
+1,test,test,te,"test desc",1234567890,1234567890,1,1,2017-07-19,1252.011,1,1,1,1,1,1,1
+id,tables,from,batchName,created_at
+1,all,mysql,1498918196,"2017-07-01 19:39:56"
