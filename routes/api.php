@@ -18,5 +18,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 Route::prefix('/v1')->group(function () {
 	Route::get('/exporMysqlCsv','ApiController@exporMysqlCsv');
-	//Route::get('/export',function(){echo "here";});
+	Route::get('/getData',"ApiController@getTableData");
+	Route::get('/postData',"ApiController@postTableData");
 });
